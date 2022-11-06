@@ -8,32 +8,50 @@
     <title>Chemical</title>
 </head>
 <body>
-    <nav>
-        <div class="container">
-          <div class="navbar">
-            <div class="logo">
-              <img src="./images/logo.png" alt="logo" />
-            </div>
-            <img src="./images/icons/burger_menu.png" alt="menu" class="burger_menu">
-            <div class="menu">
-              <ul>
-                <li><a href="./about.html">About us</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="./media.html" target="_self">Media</a></li>
-                <li><a href="./contacts.html">Contact us</a></li>
-              </ul>
-            </div>
-            <div class="lang">
-              <img src="./images/icons/Globe.png" alt="Globe" />
-              <select id="lang">
-                <option value="ru">Ru</option>
-                <option value="uz">Uz</option>
-                <option value="eng">En</option>
-              </select>
-            </div>
-          </div>
+  <nav>
+    <div class="container">
+      <div class="burMenu none">
+        <button class="close">x</button>
+        <ul class="ul none">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a href="./media.html" target="_self">Media</a></li>
+          <li><a href="./contacts.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="burgerMenu">
+        <img
+          src="./images/icons/burger_menu.png"
+          alt="menu"
+          class="burger_menu"
+        />
+      </div>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" />
         </div>
-      </nav>
+        
+        <div class="menu">
+          <ul>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./media.html" target="_self">Media</a></li>
+            <li><a href="./contacts.html">Contact us</a></li>
+          </ul>
+          
+        </div>
+        <div class="lang">
+          <img src="./images/icons/Globe.png" alt="Globe" />
+          <select id="lang">
+            <option value="ru">Ru</option>
+            <option value="uz">Uz</option>
+            <option value="eng">En</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </nav>
 
       <section class="media" id="media">
         <div class="container">
@@ -74,5 +92,6 @@
           </ul>
         </div>
       </section>
+      <script src="./main.js"></script>
 </body>
 </html>
